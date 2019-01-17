@@ -1,6 +1,7 @@
 {
-  "name": "za-react-app-rewired",
-  "version": "1.0.0",
+  "name": "@fdp/react-app-rewired",
+  "version": "1.0.2",
+  "description": "React-app-rewired 基础上添加了之前版本移除的 injectBabelPilugin 方法",
   "private": false,
   "scripts": {
     "postinstall": "lerna bootstrap",
