@@ -2,7 +2,7 @@
   "name": "za-react-app-rewired",
   "version": "2.0.3",
   "author": "Sylvanas Gone",
-  "description": "Tweak the create-react-app webpack config(s) without using 'eject' and without creating a fork of the react-scripts",
+  "description": "React-app-rewired with injectBabelPilugin",
   "private": false,
   "bin": {
     "react-app-rewired": "./bin/index.js"
