@@ -1,6 +1,6 @@
 {
   "name": "@fdp/react-app-rewired",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "React-app-rewired 基础上添加了之前版本移除的 injectBabelPilugin 方法",
   "private": false,
   "scripts": {
