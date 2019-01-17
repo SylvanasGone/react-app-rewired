@@ -1,7 +1,7 @@
 {
   "name": "za-react-app-rewired",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "postinstall": "lerna bootstrap",
     "publish": "lerna publish && lerna-npm-readme-hack"
