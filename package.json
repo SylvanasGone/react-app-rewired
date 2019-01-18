@@ -1,8 +1,5 @@
 {
-  "name": "@fdp/react-app-rewired",
-  "version": "1.0.6",
-  "description": "React-app-rewired 基础上添加了之前版本移除的 injectBabelPilugin 方法",
-  "private": false,
+  "private": true,
   "scripts": {
     "postinstall": "lerna bootstrap",
     "publish": "lerna publish && lerna-npm-readme-hack"
