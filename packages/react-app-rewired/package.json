@@ -15,5 +15,6 @@
     "dotenv": "^6.2.0",
     "semver": "^5.6.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "fd8cf487a9fc6e8a93062d1d234bbe339cb803da"
 }

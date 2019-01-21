@@ -46,7 +46,21 @@ const injectBabelPlugin = function(pluginName, config) {
   return config
 }
 
+const compose = function(...funcs) {
+  if (funcs.length === 0) {
+    return config => config
+  }
+
+  if (funcs.length === 1) {
+    return funcs[0]
+  }
+
+  return funcs.reduce((a, b) => (config, env) => a(b(config, env), env))
+}
+
 module.exports = {
   paths,
-  injectBabelPlugin
+  getLoader,
+  injectBabelPlugin,
+  compose
 }
